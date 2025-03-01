@@ -1,0 +1,175 @@
+{
+	"APIFunction": {
+		"body": [
+			"APIFunction[{",
+			"\t\t\"${1:param}\" -> \"${2:param}\"",
+			"\t},",
+			"\tFunction[",
+			"\t\t${0}",
+			"\t]",
+			"]"
+		],
+		"description": "Create a Wolfram Language APIFunction",
+		"prefix": "api"
+	},
+	"Block": {
+		"body": [
+			"Block[{",
+			"\t\t${1:variables}",
+			"\t},",
+			"\t${0}",
+			"]"
+		],
+		"description": "Create a Wolfram Language Block",
+		"prefix": "block"
+	},
+	"DefineFunction": {
+		"body": [
+			"${1:FunctionName}[${2:arguments}_${3:pattern}] := ${0}"
+		],
+		"description": "Create a Wolfram Language Function Definition",
+		"prefix": "func"
+	},
+	"Do": {
+		"body": [
+			"Do[",
+			"\t${1:expression},",
+			"\t{${2:variable}, ${3:start}, ${4:stop}, ${5:step}}",
+			"]"
+		],
+		"description": "Create a Wolfram Language Do",
+		"prefix": "do"
+	},
+	"Function": {
+		"body": [
+			"Function[{",
+			"\t\t${1:arguments}",
+			"\t},",
+			"\t${0}",
+			"]"
+		],
+		"description": "Create a Wolfram Language Function",
+		"prefix": "function"
+	},
+	"If": {
+		"body": [
+			"If[${1:condition},",
+			"\t${2:action},",
+			"\t${3:elseAction}",
+			"]"
+		],
+		"description": "Create a Wolfram Language If",
+		"prefix": "if"
+	},
+	"Module": {
+		"body": [
+			"Module[{",
+			"\t\t${1:variables}",
+			"\t},",
+			"\t${0}",
+			"]"
+		],
+		"description": "Create a Wolfram Language Module",
+		"prefix": "module"
+	},
+	"Options": {
+		"body": [
+			"Options[${1:FunctionName}] = {",
+			"\t\"${2:option}\" -> ${3:default}",
+			"}"
+		],
+		"description": "Create a Wolfram Language Options",
+		"prefix": "options"
+	},
+	"Package": {
+		"body": [
+			"BeginPackage[\"${1:Context}`\"];",
+			"",
+			"${2:symbols}",
+			"",
+			"Begin[\"`Private`\"];",
+			"",
+			"${0}",
+			"",
+			"End[];",
+			"EndPackage[];",
+			""
+		],
+		"description": "Create a Wolfram Language Package template",
+		"prefix": "package"
+	},
+	"SetUsage": {
+		"body": [
+			"SetUsage[${1:FunctionName},",
+			"\t\"${2:usage}\"",
+			"]"
+		],
+		"description": "Create a Wolfram Language SetUsage",
+		"prefix": "usage"
+	},
+	"Switch": {
+		"body": [
+			"Switch[${1:expression},",
+			"\t${2:case},",
+			"\t\t${3:action},",
+			"\t${6:default},",
+			"\t\t${7:defaultAction}",
+			"]"
+		],
+		"description": "Create a Wolfram Language Switch",
+		"prefix": "switch"
+	},
+	"Table": {
+		"body": [
+			"Table[",
+			"\t${1:expression},",
+			"\t{${2:variable}, ${3:start}, ${4:stop}, ${5:step}}",
+			"]"
+		],
+		"description": "Create a Wolfram Language Table",
+		"prefix": "table"
+	},
+	"Which": {
+		"body": [
+			"Which[",
+			"\t${1:condition},",
+			"\t\t${2:action},",
+			"\t${5:default},",
+			"\t\t${6:defaultAction}",
+			"]"
+		],
+		"description": "Create a Wolfram Language Which",
+		"prefix": "which"
+	},
+	"While": {
+		"body": [
+			"While[${1:condition},",
+			"\t${0}",
+			"]"
+		],
+		"description": "Create a Wolfram Language While",
+		"prefix": "while"
+	},
+	"With": {
+		"body": [
+			"With[{",
+			"\t\t${1:variables} = ${2:values}",
+			"\t},",
+			"\t${0}",
+			"]"
+		],
+		"description": "Create a Wolfram Language With",
+		"prefix": "with"
+	},
+	"WithCleanup": {
+		"body": [
+			"WithCleanup[",
+			"\t${1:init},",
+			"\t${0}",
+			"\t${2:cleanup}",
+			"]"
+		],
+		"description": "Create a Wolfram Language WithCleanup",
+		"prefix": "cleanup"
+	}
+}

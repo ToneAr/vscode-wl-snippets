@@ -1,0 +1,26 @@
+{
+  "name": "wl-code-snippets",
+  "displayName": "Wolfram Language Code Snippets",
+  "description": "VSCode code snippets for the Wolfram Language",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/ToneAr/vscode-wl-snippets"
+  },
+  "publisher": "Tone",
+  "license": "MIT",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "wolfram",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
