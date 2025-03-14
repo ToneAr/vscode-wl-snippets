@@ -175,7 +175,7 @@
 		"body": [
 			"WithCleanup[",
 			"\t${1:init},",
-			"\t${0}",
+			"\t${0},",
 			"\t${2:cleanup}",
 			"]"
 		],
