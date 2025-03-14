@@ -4,24 +4,25 @@ This VS Code extension provides a collection of useful code snippets for Wolfram
 
 ## Snippets
 
-| Prefix    | Description |
-|-----------|-------------|
-| `api`     | Create an APIFunction |
-| `block`   | Create a Block construct |
-| `func`    | Define a function |
-| `do`      | Create a Do loop |
-| `function`| Create a Function |
-| `if`      | Create an If conditional |
-| `module`  | Create a Module |
-| `options` | Define Options for a function |
-| `package` | Create a Package template |
-| `usage`   | Set usage message for a symbol |
-| `switch`  | Create a Switch statement |
-| `table`   | Create a Table construct |
-| `which`   | Create a Which conditional |
-| `while`   | Create a While loop |
-| `with`    | Create a With statement |
-| `cleanup` | Create a WithCleanup construct |
+| Prefix     | Description                    |
+| ---------- | ------------------------------ |
+| `api`      | Create an APIFunction          |
+| `block`    | Create a Block construct       |
+| `func`     | Define a function              |
+| `desc`     | Create a description comment   |
+| `do`       | Create a Do loop               |
+| `function` | Create a Function              |
+| `if`       | Create an If conditional       |
+| `module`   | Create a Module                |
+| `options`  | Define Options for a function  |
+| `package`  | Create a Package template      |
+| `usage`    | Set usage message for a symbol |
+| `switch`   | Create a Switch statement      |
+| `table`    | Create a Table construct       |
+| `which`    | Create a Which conditional     |
+| `while`    | Create a While loop            |
+| `with`     | Create a With statement        |
+| `cleanup`  | Create a WithCleanup construct |
 
 ## Usage
 
