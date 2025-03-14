@@ -30,6 +30,16 @@
 		"description": "Create a Wolfram Language Function Definition",
 		"prefix": "func"
 	},
+	"Description": {
+		"body": [
+			"(* -----------------------${1:functionName}------------------------------",
+			" * Description:  ${2:Description}",
+			" * Return:       ${3:ReturnPattern}",
+			" *)",
+		],
+		"description": "Create a Wolfram Language description comment",
+		"prefix": "desc"
+	},
 	"Do": {
 		"body": [
 			"Do[",
@@ -165,7 +175,7 @@
 		"body": [
 			"WithCleanup[",
 			"\t${1:init},",
-			"\t${0}",
+			"\t${0},",
 			"\t${2:cleanup}",
 			"]"
 		],
