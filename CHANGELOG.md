@@ -4,6 +4,11 @@ All notable changes to the "wl-code-snippets" extension will be documented in th
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.2]
+
+- Add linter ignore block snippet `ignore`
+- Add vscode section comment snippets `sec`, `subsec` and `subsubsec`
+
 ## [1.0.1]
 
 - Add `desc` snippet for comment description.
