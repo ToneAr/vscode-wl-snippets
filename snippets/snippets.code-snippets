@@ -23,6 +23,16 @@
 		"description": "Create a Wolfram Language Block",
 		"prefix": "block"
 	},
+	"CodeAnalysisBlock": {
+		"body": [
+			"(* :!CodeAnalysis::BeginBlock:: *)",
+			"(* :!CodeAnalysis::Disable::${1:WolframLintCode}:: *)",
+			"${0}",
+			"(* :!CodeAnalysis::EndBlock:: *)"
+		],
+		"description": "Create linter exception block",
+		"prefix": "ignore"
+	},
 	"DefineFunction": {
 		"body": [
 			"${1:FunctionName}[${2:arguments}_${3:pattern}] := ${0}"
@@ -108,6 +118,15 @@
 		"description": "Create a Wolfram Language Package template",
 		"prefix": "package"
 	},
+	"Section": {
+		"body": [
+			"(* ::Section::${1:Closed}:: *)",
+			"(* ${1:sectionName} *)",
+			"${0}"
+		],
+		"description": "Create a Wolfram Language section comment",
+		"prefix": "sec"
+	},
 	"SetUsage": {
 		"body": [
 			"SetUsage[${1:FunctionName},",
@@ -116,6 +135,24 @@
 		],
 		"description": "Create a Wolfram Language SetUsage",
 		"prefix": "usage"
+	},
+	"Subsection": {
+		"body": [
+			"(* ::Subsection::${1:Closed}:: *)",
+			"(* ${1:sectionName} *)",
+			"${0}"
+		],
+		"description": "Create a Wolfram Language subsection comment",
+		"prefix": "subsec"
+	},
+	"Subsubsection": {
+		"body": [
+			"(* ::Subsubsection::${1:Closed}:: *)",
+			"(* ${1:sectionName} *)",
+			"${0}"
+		],
+		"description": "Create a Wolfram Language subsubsection comment",
+		"prefix": "subsubsec"
 	},
 	"Switch": {
 		"body": [
