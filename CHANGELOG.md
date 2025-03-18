@@ -1,8 +1,8 @@
 # Change Log
 
-All notable changes to the "wl-code-snippets" extension will be documented in this file.
+## [1.0.3]
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Update `desc` to work better with VSCode sections
 
 ## [1.0.2]
 
