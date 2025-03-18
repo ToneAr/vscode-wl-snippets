@@ -42,8 +42,9 @@
 	},
 	"Description": {
 		"body": [
-			"(* -----------------------${1:functionName}------------------------------",
-			" * Description:  ${2:Description}",
+			"(* -------------------------------------------------------------------------- *)",
+			"(* ::Section:: *)(* ${1:functionName} *)",
+			"(* Description:  ${2:Description}",
 			" * Return:       ${3:ReturnPattern}",
 			" *)",
 		],
